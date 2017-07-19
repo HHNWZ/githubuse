@@ -25,7 +25,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:textSize="40sp"
-
+        android:textColor="@color/colorred"
         android:textStyle="bold"
         android:layout_below="@+id/textView1"/>
 
@@ -37,7 +37,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:textSize="40sp"
-
+        android:textColor="@color/colorred"
         android:textStyle="bold"
         android:layout_below="@+id/textView2"/>
 
