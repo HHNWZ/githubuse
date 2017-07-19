@@ -7,6 +7,7 @@
     tools:context="kelvinng2017.githubuse.MainActivity">
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -15,5 +16,16 @@
         android:textSize="40sp"
         android:textColor="@android:color/holo_blue_light"
         android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="歡迎用github!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView1"/>
 
 </RelativeLayout>
